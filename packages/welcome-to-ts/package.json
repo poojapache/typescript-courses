@@ -12,5 +12,8 @@
     "volta": {
         "node": "18.18.2",
         "yarn": "3.6.4"
+    },
+    "dependencies": {
+        "welcome-to-ts": "file:"
     }
 }

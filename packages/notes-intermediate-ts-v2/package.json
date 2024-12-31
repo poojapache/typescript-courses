@@ -10,5 +10,8 @@
   },
   "scripts": {
     "build": "yarn tsc"
+  },
+  "dependencies": {
+    "notes-intermediate-ts-v2": "file:"
   }
 }

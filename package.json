@@ -22,7 +22,7 @@
     "replace-in-file": "^7.0.1"
   },
   "scripts": {
-    "postinstall": "replace-in-file 'import chalk' 'import * as chalk' node_modules/gatsby-cli/lib/reporter/reporter.d.ts",
+    "postinstall": "replace-in-file chalk' chalk' 'import * as chalk' node_modules/gatsby-cli/lib/reporter/reporter.d.ts",
     "dev-website": "yarn workspace website dev",
     "dev-chat": "yarn workspace chat dev",
     "dev-hello-ts": "yarn workspace hello-ts dev",
