@@ -1,19 +1,23 @@
 {
-    "name": "welcome-to-ts",
-    "license": "NOLICENSE",
-    "version": "0.0.1",
-    "devDependencies": {
-        "typescript": "5.3.0-beta"
-    },
-    "scripts": {
-        "dev": "tsc --watch --preserveWatchOutput",
-        "typecheck": "yarn tsc -P . --noEmit"
-    },
-    "volta": {
-        "node": "18.18.2",
-        "yarn": "3.6.4"
-    },
-    "dependencies": {
-        "welcome-to-ts": "file:"
-    }
+  "name": "welcome-to-ts",
+  "license": "NOLICENSE",
+  "version": "0.0.1",
+  "devDependencies": {
+    "typescript": "5.3.0-beta"
+  },
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput",
+    "typecheck": "yarn tsc -P . --noEmit"
+  },
+  "volta": {
+    "node": "18.18.2",
+    "yarn": "3.6.4"
+  },
+  "dependencies": {
+    "scheduler": "^0.25.0",
+    "welcome-to-ts": "file:"
+  },
+  "overrides": {
+    "@types/scheduler": "< 0.23.0"
+  }
 }

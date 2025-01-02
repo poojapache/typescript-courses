@@ -3341,10 +3341,18 @@
     "@types/eslint" "*"
     "@types/estree" "*"
 
-"@types/eslint@*", "@types/eslint@8.44.3", "@types/eslint@^7.2.13", "@types/eslint@^7.29.0":
+"@types/eslint@*":
   version "8.44.3"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.44.3.tgz#96614fae4875ea6328f56de38666f582d911d962"
   integrity sha512-iM/WfkwAhwmPff3wZuPLYiHX18HI24jU8k1ZSH7P8FHwxTjZ2P6CoX2wnF43oprR+YXJM6UUxATkNvyv/JHd+g==
+  dependencies:
+    "@types/estree" "*"
+    "@types/json-schema" "*"
+
+"@types/eslint@^7.2.13", "@types/eslint@^7.29.0":
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.29.0.tgz#e56ddc8e542815272720bb0b4ccc2aff9c3e1c78"
+  integrity sha512-VNcvioYDH8/FxaeTKkM4/TiTwt6pBV9E3OfGmvaw8tPl0rrHCJ4Ll15HRT+pMiFAf/MLQvAzC+6RzUMEL9Ceng==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
@@ -9699,7 +9707,7 @@ hastscript@^4.0.0:
 "hello-ts@file:packages/hello-ts":
   version "0.0.1"
   dependencies:
-    hello-ts "file:../../../../AppData/Local/Yarn/Cache/v6/npm-hello-ts-0.0.1-322e6a95-5923-453d-b3af-66598aa075a8-1735686669307/node_modules/hello-ts"
+    hello-ts "file:../../../../AppData/Local/Yarn/Cache/v6/npm-hello-ts-0.0.1-09923c33-724a-4b83-b609-68d7bd46d4f3-1735688624038/node_modules/hello-ts"
 
 hicat@^0.8.0:
   version "0.8.0"
@@ -15884,6 +15892,11 @@ scheduler@^0.23.2:
   dependencies:
     loose-envify "^1.1.0"
 
+scheduler@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0.tgz#336cd9768e8cceebf52d3c80e3dcf5de23e7e015"
+  integrity sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==
+
 schema-utils@^2.6.5:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.1.tgz#1ca4f32d1b24c590c203b8e7a50bf0ea4cd394d7"
@@ -18393,7 +18406,7 @@ webpack@^5.35.0:
 "welcome-to-ts@file:packages/welcome-to-ts":
   version "0.0.1"
   dependencies:
-    welcome-to-ts "file:../../../../AppData/Local/Yarn/Cache/v6/npm-welcome-to-ts-0.0.1-1e238e8c-13fb-422e-b841-e96e0b0ce9f4-1735686669309/node_modules/welcome-to-ts"
+    welcome-to-ts "file:../../../../AppData/Local/Yarn/Cache/v6/npm-welcome-to-ts-0.0.1-f9f437b9-5927-4533-bc57-de89ce92d080-1735688624037/node_modules/welcome-to-ts"
 
 whatwg-encoding@^1.0.5:
   version "1.0.5"
